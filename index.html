@@ -3,7 +3,6 @@
     <head>
         <title>Calculator</title>
         <link rel="stylesheet" href="style.css">
-        <script src="index.js" type="text/javascript" defer></script>
     </head>
     <body>
         <div id="c-display">
@@ -11,20 +10,31 @@
         </div>
         <div id="c-keypad">    
             <div id="c-num">
-                <button type="button" value="1">1</button>
-                <button type="button" value="2">2</button>
-                <button type="button" value="3">3</button>
-                <button type="button" value="4">4</button>
-                <button type="button" value="5">5</button>
-                <button type="button" value="6">6</button>
-                <button type="button" value="7">7</button>
-                <button type="button" value="8">8</button>
-                <button type="button" value="9">9</button>
-                <button type="button" value="0">0</button>
+                <button class="cKeypad" type="button" value="1">1</button>
+                <button class="cKeypad" type="button" value="2">2</button>
+                <button class="cKeypad" type="button" value="3">3</button>
+                <button class="cKeypad" type="button" value="4">4</button>
+                <button class="cKeypad" type="button" value="5">5</button>
+                <button class="cKeypad" type="button" value="6">6</button>
+                <button class="cKeypad" type="button" value="7">7</button>
+                <button class="cKeypad" type="button" value="8">8</button>
+                <button class="cKeypad" type="button" value="9">9</button>
+                <button class="cKeypad" type="button" value="0">0</button>
             </div>
             <div id="c-operator">
-
+                <button type="button" class="Coperator" value="+">+</button>
+                <button type="button" class="Coperator" value="-">-</button>
+                <button type="button" class="Coperator" value="/">/</button>
+                <button type="button" class="Coperator" value="*">X</button>
+                <button type="button" id="compute" value="compute">=</button>
             </div>
+            <div id="c-edit">
+                <button type="button" class="Ctools" value="clr" id="clr">Clear</button>
+                <button type="button" class="Ctools" value="bspace" id="bspace">Backspace</button>
+
+            </div>     
         </div>    
+        <script src="index.js" type="text/javascript"></script>
+
     </body>
 </html>
