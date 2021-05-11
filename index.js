@@ -33,7 +33,9 @@ Adding event listener to the '=' button.
 const COMPUTE=document.getElementById("compute");
 
 COMPUTE.addEventListener('click',function(){
-    console.log(CDISP.innerText);
+    let string =(CDISP.innerText);
+    let res=eval(string);
+    CDISP.innerHTML=res;
 });
 
 
