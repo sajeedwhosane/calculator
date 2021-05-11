@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1200px) {
+
+#c-display{
+    background-color: blue;
+    height:50px;
+    width:40%;
+    
+}
+#c-keypad{
+    background-color:red;
+    height:500px;
+    width:40%;
+}
+#c-num{
+    background-color: orange;
+}
+button{
+    width:50px;
+    height:100px;
+    margin: 1px;
+}
+#c-operator{
+    background-color:green;
+}
+
+}
