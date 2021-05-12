@@ -1,26 +1,33 @@
-@media only screen and (min-width: 1200px) {
 
-#c-display{
-    background-color: blue;
-    height:50px;
-    width:40%;
-    
-}
-#c-keypad{
-    background-color:red;
-    height:500px;
-    width:40%;
-}
-#c-num{
-    background-color: orange;
-}
-button{
-    width:50px;
-    height:100px;
-    margin: 1px;
-}
-#c-operator{
-    background-color:green;
-}
+    body{
+        margin-left:20%;
+        margin-right:20%;
+    }
+    #c-display{
+        height:50px;
+        width:60%;
+        border: 2px solid green; 
+        text-align: center;
+        padding-top:10px;
+        font-size: 20px;
+    }
+    #c-keypad{
+        display:flex;
+        background-color:red;
+        height:500px;
+        width:60%;
+        padding:10px;
+    }
+    #c-num{
+        width:60%;
+        background-color: orange;
+    }
+    button{
+        width:50px;
+        height:100px;
+        margin: 1px;
+    }
+    #c-operator{
+        background-color:green;
+    }
 
-}
